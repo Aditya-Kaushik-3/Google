@@ -25,6 +25,14 @@
  *    - Update the articulation point condition for each node.
  * 4. After the DFS, return a list of all articulation points.
  * 5. If no articulation point exists, return [-1].
+
+
+Time Complexity:
+O(N + E), where N is the number of nodes and E is the number of edges, as the algorithm performs a single DFS traversal.
+Space Complexity:
+O(N + E) for the adjacency list and auxiliary arrays used during DFS.
+
+
  */
 
 class Solution {
